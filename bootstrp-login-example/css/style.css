@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    line-height: 1;
+}
+
+header,
+footer,
+nav {
+    display: block;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+ul.topnav {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.topnav li {
+    float: left;
+    list-style: none;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    padding: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #666;
+    font-family: "Microsoft YaHei";
+}
+
+ul.topnav li a:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+div.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.gradient {
+    background: #076DFF;
+    background: linear-gradient(#076DFF, #65A5FF);
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+h1.large {
+    font-size: 42px;
+    color: white;
+    line-height: 70px;
+}
+
+.left_margin {
+    margin-left: 25%;
+}
+
+
+form h2 {
+    color: white;
+    font-size: 30px;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    width: 300px;
+    min-width: 100px;
+    padding: 6px;
+}
+
+h1.picHeader {
+    font-size: 70px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div.box {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+                0 2px 3px 0 rgba(0,0,0,.1);
+    border-radius: 10px;
+    text-align: center;
+    margin: 25px;
+    padding: 36px 24px 40px 24px;
+}
+
+div.smallPic {
+    width: 100%;
+}
+
+h2.introPic {
+    font-size: 16px;
+}
+
+p.introParagram {
+ font-family: 'Microsoft YaHei',SimSun,'Courier New', Courier, monospace;
+ font-size: 18px;
+ line-height: 30px;
+}
+
+button.learnMore {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0069ff;
+    padding: 15px 60px;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+article p {
+    font-family: 'Microsoft YaHei',SimSun,'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+div.footerPic img {
+    padding: 5px;
+    width: 100%;
+}
+
+footer.endFooter {
+    background-color: #666;
+    padding-left: 10%;
+}
+
+footer.endFooter h1 {
+    color: #fff;
+    font-size: 28px;
+}
+
+footer.endFooter ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+
+}
+
+footer.endFooter ul li {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width:800px) {
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+    .mobileStack {
+        width: 50%;
+        display: block;
+    }
+    div.snow img {
+        width: 100%;
+    }
+    div.box {
+        margin: 10px;
+        padding: 8px;
+    }
+
+    .left_margin {
+        margin: 15px;
+    }
+
+    .vedioContainer iframe {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    ul.topnav li.dropdownIcon {
+        float: right;
+        display: block;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

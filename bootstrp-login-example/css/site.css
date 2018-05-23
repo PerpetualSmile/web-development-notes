@@ -1,0 +1,85 @@
+
+
+.card.login-card {
+    padding: 0px 0 20px;
+    background-color: #f4f4f4;
+    
+    border: 0px;
+}
+
+img.login-image {
+    margin: auto;
+    padding: 0 2rem 2rem;
+    display: block;
+}
+
+form.login-form {
+    width: 350px;
+    margin: auto;
+}
+
+button.login-button {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+a.login-create-account {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.introduction {
+    background-color: #cccccc;
+    margin-top: 10px;
+    padding: 1rem;
+}
+
+button.viewMore {
+    background-color: red;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h5.modal-title {
+    margin: auto;
+}
+
+div.three-pictures {
+    margin-top: 2rem;
+}
+
+button.btn-view {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px; 
+}
+
+img.img-center {
+    display: block;
+    margin: auto;
+}
+
+form.login-margin {
+    margin: none;
+}
+
+div.modal-padding {
+    padding: 0rem;
+}
+
+div.col-padding {
+    padding: 0rem;
+}
+
+div.header-style {
+    background: #F4F4F4;
+    border: none;
+}
